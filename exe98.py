@@ -1,5 +1,5 @@
-print("Função de contador")
 from time import sleep
+print("Função de contador")
 
 def contador(i, f, p): # inicio, fim, passo é a msg que vai ser exibida para o usuário
     if p < 0: #passo tem que ser positivo

@@ -1,5 +1,5 @@
-print("Classificando atletas")
 from datetime import date
+print("Classificando atletas")
 
 ano = int(input("Data de nascimento:"))
 atual = date.today().year
@@ -24,4 +24,3 @@ elif idade > 19 and idade <= 25:
     print("\033[1mCLASSIFICAÇÃO\033[m: Sênior")
 else:
     print("\033[1mCLASSIFICAÇÃO\033[m: Master")
-
