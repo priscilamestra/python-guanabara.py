@@ -1,6 +1,7 @@
-print("Contagem regressiva")
 from time import sleep
-for i in range(10,-1,-1):
-    sleep(1)
-    print(i)
+print("Contagem regressiva")
+
+for cont in range(10,-1,-1):
+    sleep(0.5)
+    print(cont)
 print("BUMMMMMMMMMM") 
