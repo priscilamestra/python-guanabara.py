@@ -23,3 +23,29 @@ else:
 # usei outros if para ter concordância verbal na resposta.
 
 
+# EXERCÍCIO 54 - GRUPO DA MAIORIDADE (VERSÃO 3)
+from datetime import date
+ano_atual = date.today().year
+total_maior = 0
+total_menor = 0
+for pessoa in range(1, 4):
+  nascimento = int(input(f"Em que ano a {pessoa}° pessoa nasceu? "))
+  idade = ano_atual - nascimento
+  if idade >= 18:
+    total_maior = total_maior + 1
+  else:
+    total_menor = total_menor + 1
+# Lógica para o texto da maioridade    
+if total_maior == 1:
+  txt_maior = "pessoa maior"
+else:
+  txt_maior = "pessoas maiores"
+# Lógica para o texto da menoridade	
+if total_menor == 1:
+  txt_menor = "pessoa menor"
+else:
+  txt_menor = "pessoas menores"
+
+print(f"Ao todo tivemos {total_maior} {txt_maior} de idade e {total_menor} {txt_menor} de idade")
+
+
