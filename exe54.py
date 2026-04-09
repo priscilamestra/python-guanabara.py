@@ -1,6 +1,6 @@
+from datetime import date
 print("Grupo da maioridade")
 
-from datetime import date 
 atual = date.today().year
 maior = 0
 menor = 0
@@ -12,14 +12,14 @@ for i in range(1,4):
     else:
         menor = menor + 1
 if maior == 1 or maior ==0:
-    print("Ao todo tivemos {} maior de idade." .format(maior)) #fora do laço pra não reptir a cada frase
+    print(f"Ao todo tivemos {maior} maior de idade.") #fora do laço pra não reptir a cada frase
 else:
-    print("Ao todo tivemos {} maiores de idade." .format(maior)) #fora do laço pra não reptir a cada frase
+    print(f"Ao todo tivemos {maior} maiores de idade.") #fora do laço pra não reptir a cada frase
 
 if menor == 1 or menor == 0:
-    print("E também tivemos {} menor de idade." .format(menor))
+    print(f"E também tivemos {menor} menor de idade.")
 else:
-    print("E também tivemos {} menores de idade." .format(menor))
+    print(f"E também tivemos {menor} menores de idade.")
 # usei outros if para ter concordância verbal na resposta.
 
 
