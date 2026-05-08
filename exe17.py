@@ -6,14 +6,14 @@ hip = (cat_op ** 2 + cat_adj ** 2) ** (1/2)
 print(f"Hipotenusa = {hip:.2f}")
 
 #V2
-import math
+import math  # noqa: E402
 co = float(input("cateto oposto:"))
 ca = float(input("cateto adjacente:"))
 hi = (math.hypot(co, ca))
 print(f"hipotenusa: {hi:.2f}")
 
 #V3
-from math import hypot
+from math import hypot  # noqa: E402
 co = float(input("cateto oposto:"))
 ca = float(input("cateto adjacente:"))
 hi = hypot(co, ca)
