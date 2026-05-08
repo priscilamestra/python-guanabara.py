@@ -6,4 +6,4 @@ sen = sin(radians(ang))
 cos = cos(radians(ang))
 tg = tan(radians(ang))
 
-print(" Sen = {:.2f} \n Cos ={:.2f} \n Tg = {:.2f}" .format(sen,cos,tg))
+print(f"Sen = {sen:.2f} \n Cos = {cos:.2f} \n Tg = {tg:.2f}")
