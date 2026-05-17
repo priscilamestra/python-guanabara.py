@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 num = int(input("Digite um número para ver sua tabuada:"))
 print("----------")
 print(num, "x 01 =", (num*1))
