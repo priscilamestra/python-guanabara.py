@@ -1,19 +1,17 @@
 # -*- coding: utf-8 -*-
-print("Sorteando um aluno")
-import random
+from random import choice, shuffle
 
-n1 = input("Primeiro nome:")
-n2 = input("Segundo nome:")
-n3 = input("Terceiro nome:")
-n4 = input("Quarto nome:")
+n1 = input("Digite o primeiro nome:")
+n2 = input("Digite o segundo nome:")
+n3 = input("Digite o terceiro nome:")
+n4 = input("Digite o quarto nome:")
+
 lista = [n1,n2,n3,n4]
-escolhido = random.choice(lista)
-print("O alunx escolhido é {}!" .format(escolhido)) 
+escolhido = choice(lista)
 
-print("Sorteando a ordem de apresentação")
-from random import shuffle
+print(f"O aluno escolhido foi {escolhido}!") 
 
-random.shuffle(lista)
-print("A ordem de apresentação será:")
+shuffle(lista)
+print("A ordem de apresentação será: ")
 print(lista)
  
