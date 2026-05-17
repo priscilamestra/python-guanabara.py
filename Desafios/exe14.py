@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 print("Conversor de temperaturas")
 celsius = float(input("Informe a temperatura em °C:"))
 fahrenheit = float(input("Informe a temperatura em °F:"))
