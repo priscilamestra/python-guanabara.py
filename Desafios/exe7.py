@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
 print ("média dos alunos retardados! ")
+
 nota1 = float(input("Digite sua primeira nota bosta:"))
 #nota1 = float(nota1)
 nota2 = float(input("Digite sua segunda nota: "))
