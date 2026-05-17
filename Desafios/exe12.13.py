@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 print("Calculando descontos")
 preço = float(input("Qual é o preço do produto? R$"))
 desconto = int(input("Qual a porcentagem de desconto?"))
