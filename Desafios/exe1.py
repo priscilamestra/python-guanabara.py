@@ -1,4 +1,4 @@
 # -*- coding: utf-8 -*- 
 
-msg = "olá mundo"
+msg = "olá, mundo!"
 print(msg)
