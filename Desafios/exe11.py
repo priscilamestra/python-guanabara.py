@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 print("Pintando parede")
 largura = float(input("Largura da parede:"))
 altura = float(input("Altura da parede:"))
