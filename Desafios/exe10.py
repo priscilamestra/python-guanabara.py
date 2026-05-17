@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 print("Conversor de moeda")
 real = float(input("Valor em real: R$"))
 dolar = real / 5.59
