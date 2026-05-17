@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-print("Antecessor e sucessor!")
+print("Antecessor e Sucessor!")
 
 num1 = int(input("Digite um número: "))
 num2 = num1 - 1
