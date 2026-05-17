@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 print("Conversor de medidas")
 
 medida = float(input("Digite uma distâcia em metros:"))
