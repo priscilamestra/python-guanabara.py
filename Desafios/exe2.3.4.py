@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 nome = input("Digite seu nome: ")
 print(f"Bem vindo ao seu primeiro programa de interação, {nome}!") 
-n1 = int(input("Digite um número:" ))
-n2 = int(input("Digite outro número:" ))
+n1 = int(input("Digite um número: "))
+n2 = int(input("Digite outro número: "))
 
 soma = n1 + n2
 print("A soma entre", n1, "e", n2 ,"é", soma)
 
-n3 = int(input("Digite um número:"))
-n4 = int(input("Digite outro número:"))
+n3 = int(input("Digite um número: "))
+n4 = int(input("Digite outro número: "))
 
 soma2 = n3 + n4
 print(f"A soma entre {n3} e {n4} é {soma2}") 
