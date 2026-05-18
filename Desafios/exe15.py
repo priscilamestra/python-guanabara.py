@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 print("Aluguel de carros")
 dias = int(input("Quanto dias alugados? "))
 km = float(input("Quantos km rodados? "))
