@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #V1
 cat_op = float(input("Comprimento do cateto oposto:"))
 cat_adj = float(input("Comprimento do cateto adjacente:"))
