@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from math import trunc
 print("Quebrando um número")
 num = float(input("Digite um número:"))
