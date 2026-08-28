@@ -1,23 +1,6 @@
-import pygame
-#import os; print(os.getcwd())
-#"python.linting.pylintArgs": [
-#    "--extension-pkg-whitelist=pygame"
-#]
+from playsound3 import playsound
 
-pygame.mixer.init() 
-pygame.init()
-pygame.mixer.music.load('exe021.mp3')
-pygame.mixer.music.play()
-pygame.event.wait()
-
-
-#pygame.mixer.init()
-#pygame.mixer.music.load('exe021.mp3')
-#pygame.mixer.music.play()
-#input()
-#pygame.event.wait()
-
-
+playsound("exe21.mp3")
 
 
 
