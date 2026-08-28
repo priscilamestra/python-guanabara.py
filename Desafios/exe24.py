@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 print("Verificando as primeiras letras do texto")
 cid = input("Em que cidade você nasceu ? ").strip()
 print(cid[:5].upper() == "SANTO")
