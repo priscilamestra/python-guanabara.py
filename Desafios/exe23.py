@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 print("Separando dígitos de um número")
 
 num = int(input("Informe um número:"))
